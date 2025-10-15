@@ -25,5 +25,30 @@ h1 {
   flex-basis: auto;
 }
 
-.title-section {
+.bottom-bar {
+  background-color: rgb(233, 179, 78);
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  align-items: flex-start;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sales {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+div > h3 {
+  padding: 0;
+  margin-bottom: 0%;
+  text-decoration: underline;
 }
