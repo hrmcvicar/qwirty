@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 {
+  align-self: flex-end;
+}
+.section2 {
+  align-self: flex-end;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+h1 {
+  flex-basis: auto;
+}
+
+.title-section {
+}
