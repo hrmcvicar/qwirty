@@ -7,6 +7,8 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(233, 179, 78);
+  padding-bottom: 1%;
 }
 
 .section1 {
@@ -14,6 +16,10 @@ nav {
 }
 .section2 {
   align-self: flex-end;
+}
+section > a {
+  text-decoration: none;
+  color: black;
 }
 
 div {
@@ -23,8 +29,28 @@ div {
 }
 h1 {
   flex-basis: auto;
+  color: rgb(45, 34, 34);
+  padding-left: 2%;
 }
 
+aside {
+  width: fit-content;
+}
+
+ul {
+  padding-left: 0;
+  row-gap: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 125px;
+}
+ul > li > a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(233, 179, 78);
+  padding: 3%;
+}
 .bottom-bar {
   background-color: rgb(233, 179, 78);
   display: flex;
